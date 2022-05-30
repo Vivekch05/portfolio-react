@@ -20,11 +20,12 @@ function App() {
       navCollapse1.classList.remove("show");
     });
   });
+  
 
   return (
     <>
       <Layout />
-      <div style={{ marginTop: "35px" }}>
+      <div style={{ marginTop: "5px" }}>
         <Main />
       </div>
       <Footer/>

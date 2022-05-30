@@ -31,7 +31,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr='var(--secondary-color)', GradientType=1);
 
     /* Text Color */
-    --primary-font:'Poppins', sans-serif;
+    --primary-font: 'Poppins', sans-serif;
     --primary-text: #FD4766;
     --text-gray: #c6c9d8bf;
     --text-white: #fff;
@@ -60,10 +60,10 @@ a {
     background: var(--primary-color);
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 section {
@@ -91,6 +91,12 @@ section {
     color: var(--text-white);
 }
 
+.main-btn-active {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--text-white);
+}
+
 h1 {
     font-size: 54px;
     line-height: 68px;
@@ -99,10 +105,11 @@ h1 {
     margin-bottom: 20px;
 }
 
-h1 span  {
+h1 span {
     color: var(--primary-color);
 }
-.styles_typicalWrapper__1_Uvh{
+
+.styles_typicalWrapper__1_Uvh {
     color: var(--primary-color);
     font-size: 54px;
     line-height: 68px;
@@ -160,12 +167,12 @@ textarea:focus,
 textarea:hover,
 button {
     outline: none !important;
-    box-shadow: none !important; 
+    box-shadow: none !important;
 }
 
 /* 2 Navbar */
 .header_wrapper .navbar {
-    padding:15px 0;
+    padding: 15px 0;
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
@@ -179,7 +186,7 @@ button {
 .header_wrapper .navbar-toggler {
     border: 0;
     color: var(--gray-color);
-    line-height:2;
+    line-height: 2;
 }
 
 .header_wrapper .navbar-toggler:focus {
@@ -195,7 +202,7 @@ button {
     font-size: 16px;
     font-weight: 500;
     color: var(--text-gray);
-    display:inline-block;
+    display: inline-block;
 }
 
 .header_wrapper .nav-item .nav-link::after {
@@ -220,10 +227,10 @@ button {
 }
 
 .header-scrolled {
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%; 
+    width: 100%;
     background-color: var(--bg-dark-blue);
     -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
     box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
@@ -329,12 +336,12 @@ button {
 
 /* 5 Portfolio */
 .portfolio_wrapper .card {
-    height:100%;
+    height: 100%;
     min-height: 350px;
     overflow: hidden;
     border: 1px solid var(--bg-white);
     cursor: pointer;
-    box-shadow: 0 0 16px 4px var(--bg-dark-blue); 
+    box-shadow: 0 0 16px 4px var(--bg-dark-blue);
 }
 
 .portfolio_wrapper .card span {
@@ -359,20 +366,24 @@ button {
     font-weight: 400;
     padding: 10px 20px;
 }
+
 .contact_wrapper .form-control:hover,
 .contact_wrapper textarea:hover,
 .contact_wrapper .form-control:focus,
-.contact_wrapper textarea:focus { 
+.contact_wrapper textarea:focus {
     border-color: var(--primary-color);
-    color: var(--text-white); 
-}  
-.contact_wrapper .call_details{
-    color:var(--text-gray);
+    color: var(--text-white);
 }
-.contact_wrapper .call_details a{
+
+.contact_wrapper .call_details {
+    color: var(--text-gray);
+}
+
+.contact_wrapper .call_details a {
     font-weight: 700;
-    color:var(--text-gray);
+    color: var(--text-gray);
 }
+
 /* 7 footer */
 .footer_wrapper {
     background-color: var(--bg-dark-blue);
@@ -408,15 +419,17 @@ button {
     box-shadow: 0 10px 15px 0 rgb(0 0 0 / 10%);
     transform: translateY(-3px);
 }
-.footer_wrapper .copyright-text p{
-    font-size:11px;
+
+.footer_wrapper .copyright-text p {
+    font-size: 11px;
     line-height: 20px;
 }
+
 .footer_wrapper .copyright-text a {
     color: var(--primary-color);
 }
-<!--Responsive Code-->
-@media (max-width:991px) {
+
+< !--Responsive Code-->@media (max-width:991px) {
 
     /* custom css */
     section {
@@ -453,9 +466,9 @@ button {
     }
 
     /* About */
-    .about_wrapper ul.nav-pills{
-        width:61%;
-        margin:auto;
+    .about_wrapper ul.nav-pills {
+        width: 61%;
+        margin: auto;
 
     }
 
@@ -484,20 +497,27 @@ button {
     }
 
     /* About */
-    .about_wrapper ul.nav-pills{
-        width:100%;
-        margin:auto;
-        border:0;
+    .about_wrapper ul.nav-pills {
+        width: 100%;
+        margin: auto;
+        border: 0;
     }
+
     .about_wrapper ul li .nav-link {
         font-size: 13px;
-    } 
+    }
 
     /* portfolio */
     .portfolio_wrapper .card {
         min-height: 500px;
     }
-} 
+}
 
-        
-      
+.contact-img {
+    -moz-box-shadow: 10px 10px 5px var(--bg-dark-blue);
+    -webkit-box-shadow: 10px 10px 5px var(--bg-dark-blue);
+    box-shadow: 10px 10px 5px var(--bg-dark-blue);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}

@@ -15,44 +15,44 @@ export default function Portfolio() {
           <div className="col-sm-12 text-center mb-4">
             <span className="subtitle">My Complete project</span>
             <h2>My Latest Project</h2>
-            <p>
+            {/* <p>
               There are many variations of passages of Lorem Ipsum available,
               <br className="d-none d-md-block" />
               but the majority have suffered alteration.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-4 col-md-6 mb-4">
+          <div className="col-lg-6 col-md-6 mb-4">
             <div className="card p-0">
               <span style={{backgroundImage:`url(${img1})`}}></span>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 mb-4">
+          <div className="col-lg-6 col-md-6 mb-4">
             <div className="card p-0">
               <span style={{backgroundImage:`url(${img2})`}}></span>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 mb-4">
+          <div className="col-lg-6 col-md-6 mb-4">
             <div className="card p-0">
               <span style={{backgroundImage:`url(${img3})`}}></span>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 mb-4">
+          <div className="col-lg-6 col-md-6 mb-4">
             <div className="card p-0">
               <span style={{backgroundImage:`url(${img4})`}}></span>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 mb-4">
+          {/* <div className="col-lg-4 col-md-6 mb-4">
             <div className="card p-0">
               <span style={{backgroundImage:`url(${img5})`}}></span>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 mb-4">
+          </div> */}
+          {/* <div className="col-lg-4 col-md-6 mb-4">
             <div className="card p-0">
               <span style={{backgroundImage:`url(${img6})`}}></span>
             </div>
-          </div>
+          </div> */}
           {/* <div className="col-lg-3 col-md-6 mb-4">
             <div className="card p-0">
               <span style={{backgroundImage:`url(${img7})`}}></span>

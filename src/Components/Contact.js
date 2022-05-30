@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import contactimg from "../images/vk3.jpg";
+import contactimg from "../images/vk10.jpg";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -87,7 +87,7 @@ export default function Contact() {
             </form>
           </div>
           <div className="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
-            <img src={contactimg} className="img-fluid" />
+            <img src={contactimg} className="img-fluid contact-img" />
           </div>
         </div>
       </div>

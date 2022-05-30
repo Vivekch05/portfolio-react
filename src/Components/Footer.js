@@ -70,10 +70,9 @@ export default function Footer() {
           </div>
           <div className="col-lg-4 col-md-12">
             <div className="copyright-text text-lg-start text-center mb-3 mb-lg-0">
-              {/* <p className="mb-0">
-                Copyright © 2022 <a href="#">Code4education</a>. All Rights
-                Reserved.
-              </p> */}
+              <p className="mb-0">
+                Vivek Chaurasia <a href="#">Senior Engineer</a>.
+              </p>
             </div>
           </div>
         </div>

@@ -1,20 +1,26 @@
 import React from "react";
-import aboutimg from "../images/vk5.jpg";
+import aboutimg from "../images/vk7.jpg";
 export default function About() {
   return (
     <section id="about" className="about_wrapper">
       <div className="container">
         <div className="row justify-content-between align-items-center">
           <div className="col-lg-5 mb-4 mb-lg-0">
-            <img src={aboutimg} className="img-fluid rounded-3" alt="About Us" />
+            <img
+              src={aboutimg}
+              className="img-fluid rounded-3 contact-img"
+              alt="About Us"
+            />
           </div>
           <div className="col-lg-7 ps-lg-5 text-center text-lg-start">
             <div className="my-3 my-lg-0">
               <span className="subtitle">My About Details</span>
               <h2>About Me</h2>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour.
+                Hello, I am Vivek Chaurasia. I am a Web Developer from India,
+                Bihar. I have rich experience in website design and building.
+                Apart from my Professional Life, I love Travelling and wants to
+                Explore New New Places😍.
               </p>
             </div>
             <div className="pt-4">
@@ -93,7 +99,7 @@ export default function About() {
                       <div
                         className="progress-bar"
                         role="progressbar"
-                        style={{width:"95%"}}
+                        style={{ width: "95%" }}
                         aria-valuenow="0"
                         aria-valuemin="0"
                         aria-valuemax="100"
@@ -107,7 +113,7 @@ export default function About() {
                       <div
                         className="progress-bar"
                         role="progressbar"
-                        style={{width:"70%"}}
+                        style={{ width: "70%" }}
                         aria-valuenow="0"
                         aria-valuemin="0"
                         aria-valuemax="100"
@@ -135,7 +141,7 @@ export default function About() {
                       <div
                         className="progress-bar"
                         role="progressbar"
-                        style={{width:"50%"}}
+                        style={{ width: "50%" }}
                         aria-valuenow="0"
                         aria-valuemin="0"
                         aria-valuemax="100"
@@ -237,14 +243,13 @@ export default function About() {
                     <li>
                       <a href="#">
                         XII
-                        <span> - R.K.D College, Patana, Bihar, India</span>
+                        <span> - R.K.D College, Patna, Bihar, India</span>
                       </a>{" "}
                       2013
                     </li>
                     <li>
                       <a href="#">
-                        X
-                        <span> - R.S.H.S, Parasauni Farm, Bihar, India</span>
+                        X<span> - R.S.H.S, Parasauni Farm, Bihar, India</span>
                       </a>{" "}
                       2011
                     </li>

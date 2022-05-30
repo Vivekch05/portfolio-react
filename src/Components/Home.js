@@ -11,7 +11,7 @@ export default function Home() {
             <h1>I’m Vivek Chaurasia</h1>
             {/* <span> React JS Developer😍.</span> */}
             <Typical
-              steps={["Web Developer👨‍💻.", 3000, "React Js Developer😍.", 3000, "I Love Coding❤.", 3000]}
+              steps={["Web Developer.", 3000, "React Js Developer.", 3000, "I Love Coding.", 3000]}
               loop={Infinity}
             />
             <br />

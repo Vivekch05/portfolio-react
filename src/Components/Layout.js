@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../images/logo3.png";
 import Home from "./Home";
 export default function Layout() {
@@ -12,10 +12,12 @@ export default function Layout() {
   //     nav.classList.remove("header-scrolled");
   //   }
   // };
+  const location = useLocation();
+  console.log(location.pathname);
   return (
     <>
       <header className="header_wrapper">
-        <nav className="header-scrolled navbar navbar-expand-lg fixed-top">
+        <nav className=" navbar navbar-expand-lg fixed-top">
           <div className="container">
             {/* <a className="navbar-brand" href="#">
               <img src={logo} className="img-fluid" alt="logo" />
@@ -40,12 +42,23 @@ export default function Layout() {
             >
               <ul className="navbar-nav menu-navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="/">
+                  <Link
+                    className={`nav-link ${
+                      location.pathname === "/" ? "active" : ""
+                    }`}
+                    aria-current="page"
+                    to="/"
+                  >
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="about">
+                  <Link
+                    className={`nav-link ${
+                      location.pathname === "/about" ? "active" : ""
+                    }`}
+                    to="about"
+                  >
                     About
                   </Link>
                 </li>
@@ -55,17 +68,32 @@ export default function Layout() {
                   </Link>
                 </li> */}
                 <li className="nav-item">
-                  <Link className="nav-link" to="portfolio">
+                  <Link
+                    className={`nav-link ${
+                      location.pathname === "/portfolio" ? "active" : ""
+                    }`}
+                    to="portfolio"
+                  >
                     Portfolio
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="contact">
+                  <Link
+                    className={`nav-link ${
+                      location.pathname === "/contact" ? "active" : ""
+                    }`}
+                    to="contact"
+                  >
                     Contact
                   </Link>
                 </li>
                 <li className="nav-item mt-3 mt-lg-0">
-                  <Link className="main-btn" to="contact">
+                  <Link
+                    className={`main-btn ${
+                      location.pathname === "/hireme" ? "main-btn-active" : ""
+                    }`}
+                    to="hireme"
+                  >
                     Hire Me
                   </Link>
                 </li>
