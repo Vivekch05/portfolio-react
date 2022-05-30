@@ -429,7 +429,7 @@ button {
     color: var(--primary-color);
 }
 
-< !--Responsive Code-->@media (max-width:991px) {
+@media (max-width:991px) {
 
     /* custom css */
     section {
