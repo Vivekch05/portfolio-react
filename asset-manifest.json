@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.5df52ab7.css",
-    "main.js": "/portfolio-react/static/js/main.b25b330b.js",
+    "main.js": "/portfolio-react/static/js/main.09c92198.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/Christmas-Landing-Page.png": "/portfolio-react/static/media/Christmas-Landing-Page.9af9dd0287a021ca17c0.png",
     "static/media/Foodies.png": "/portfolio-react/static/media/Foodies.4cca8fe43b679ff5bde8.png",
@@ -21,11 +21,11 @@
     "static/media/service-3.svg": "/portfolio-react/static/media/service-3.8ead5dffa8bb25e50d2073760c21d734.svg",
     "static/media/service-2.svg": "/portfolio-react/static/media/service-2.7dcee37b5f9dccd55d9d6856c5519668.svg",
     "main.5df52ab7.css.map": "/portfolio-react/static/css/main.5df52ab7.css.map",
-    "main.b25b330b.js.map": "/portfolio-react/static/js/main.b25b330b.js.map",
+    "main.09c92198.js.map": "/portfolio-react/static/js/main.09c92198.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5df52ab7.css",
-    "static/js/main.b25b330b.js"
+    "static/js/main.09c92198.js"
   ]
 }
