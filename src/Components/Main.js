@@ -9,12 +9,13 @@ import Layout from "./Layout";
 export default function Main() {
   return (
     <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="contact" element={<Contact />} />
-      <Route path="hireme" element={<Contact />} />
+      <Route path="" element={<Home />} />
+      <Route path="portfolio-react/home" element={<Home />} />
+      <Route path="portfolio-react/about" element={<About />} />
+      <Route path="portfolio-react/contact" element={<Contact />} />
+      <Route path="portfolio-react/hireme" element={<Contact />} />
       {/* <Route path="services" element={<Services />} /> */}
-      <Route path="portfolio" element={<Portfolio />} />
+      <Route path="portfolio-react/portfolio" element={<Portfolio />} />
     </Routes>
   );
 }

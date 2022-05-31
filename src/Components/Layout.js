@@ -44,10 +44,10 @@ export default function Layout() {
                 <li className="nav-item">
                   <Link
                     className={`nav-link ${
-                      location.pathname === "/" ? "active" : ""
+                      location.pathname === "/portfolio-react/home" ? "active" : ""
                     }`}
                     aria-current="page"
-                    to="/"
+                    to="portfolio-react/home"
                   >
                     Home
                   </Link>
@@ -55,9 +55,9 @@ export default function Layout() {
                 <li className="nav-item">
                   <Link
                     className={`nav-link ${
-                      location.pathname === "/about" ? "active" : ""
+                      location.pathname === "/portfolio-react/about" ? "active" : ""
                     }`}
-                    to="about"
+                    to="portfolio-react/about"
                   >
                     About
                   </Link>
@@ -70,9 +70,9 @@ export default function Layout() {
                 <li className="nav-item">
                   <Link
                     className={`nav-link ${
-                      location.pathname === "/portfolio" ? "active" : ""
+                      location.pathname === "/portfolio-react/portfolio" ? "active" : ""
                     }`}
-                    to="portfolio"
+                    to="portfolio-react/portfolio"
                   >
                     Portfolio
                   </Link>
@@ -80,9 +80,9 @@ export default function Layout() {
                 <li className="nav-item">
                   <Link
                     className={`nav-link ${
-                      location.pathname === "/contact" ? "active" : ""
+                      location.pathname === "/portfolio-react/contact" ? "active" : ""
                     }`}
-                    to="contact"
+                    to="portfolio-react/contact"
                   >
                     Contact
                   </Link>
@@ -90,9 +90,9 @@ export default function Layout() {
                 <li className="nav-item mt-3 mt-lg-0">
                   <Link
                     className={`main-btn ${
-                      location.pathname === "/hireme" ? "main-btn-active" : ""
+                      location.pathname === "/portfolio-react/hireme" ? "main-btn-active" : ""
                     }`}
-                    to="hireme"
+                    to="portfolio-react/hireme"
                   >
                     Hire Me
                   </Link>
